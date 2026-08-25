@@ -1,7 +1,7 @@
 // Esperamos a que todo el HTML cargue primero
 document.addEventListener("DOMContentLoaded", function() {
-    
-    // Galerías con auto-scroll fluido y continuo (Carousel)
+    /*
+   // Galerías con auto-scroll fluido y continuo (Carousel)
     const galeriaContainer = document.querySelector(".galeria-container");
     
     if (galeriaContainer) {
@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // Iniciamos la animación
         requestAnimationFrame(autoScroll);
     }
-    
+    */
     // Configura la fecha de la fiesta (Mes en inglés, Día, Año Hora:Minutos:Segundos)
     // 9 de Mayo de 2026 a las 21:30 hrs
-    const countdownDate = new Date("May 9, 2026 21:30:00").getTime();
+    const countdownDate = new Date("Oct 16, 2026 22:00:00").getTime();
 
     const x = setInterval(function() {
         // Obtenemos la fecha y hora actual
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const successMessage = document.getElementById("successMessage");
 
     // REEMPLAZAR ESTA URL CON LA QUE OBTENGAS AL PUBLICAR EL SCRIPT DE GOOGLE
-    const FLASK_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyizfNf346csQZU-J0LJ279iZrD3qZscWxxEGJr7wdLQmGuV7jjDAZ18oCoIN2tS83T/exec";
+    const FLASK_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzWFJUNTpCbtuyj-ptTPOecE7vJu5iZmWd5cdLr6QQ4Xa82juagsKl7jU3nuOTqz4LOQQ/exec";
 
     if (photoInput) {
         // Al seleccionar archivos
