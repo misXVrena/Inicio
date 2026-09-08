@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const successMessage = document.getElementById("successMessage");
 
     // REEMPLAZAR ESTA URL CON LA QUE OBTENGAS AL PUBLICAR EL SCRIPT DE GOOGLE
-    const FLASK_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzWFJUNTpCbtuyj-ptTPOecE7vJu5iZmWd5cdLr6QQ4Xa82juagsKl7jU3nuOTqz4LOQQ/exec";
+    const FLASK_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzh3Qd63wmRBn6XmtnZ4f2aGdI6IVBvhLvNPcqskpSqtWnzXshk41BP67Mx9E1GUYyj/exec";
 
     if (photoInput) {
         // Al seleccionar archivos
