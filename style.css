@@ -175,15 +175,35 @@ section {
 .paleta {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 15px;
+    gap: 0;
+    margin: 25px auto 0;
 }
 
 .color {
-    width: 50px;
-    height: 50px;
+    width: 76px;
+    aspect-ratio: 1;
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.color + .color {
+    margin-left: -10px;
+}
+
+.color-azul-oscuro {
+    background-color: #176ca3;
+}
+
+.color-celeste-intenso {
+    background-color: #35acee;
+}
+
+.color-azul-medio {
+    background-color: #78aae0;
+}
+
+.color-celeste-claro {
+    background-color: #96c0e1;
 }
 
 /* Datos Bancarios */
@@ -290,6 +310,11 @@ footer {
     .hero-content h1 {
         font-size: 3rem;
     }
+
+    .color {
+        width: 62px;
+    }
+
     .countdown {
         gap: 10px;
     }
